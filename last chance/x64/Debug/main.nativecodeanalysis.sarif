@@ -1,0 +1,522 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "Тип перечисления \"ConsoleColor\" не входит в область. Старайтесь использовать \"enum class\" вместо \"enum\" (Enum.3)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/zelen/source/repos/last chance/last chance/Colors.h"
+                },
+                "region": {
+                  "startLine": 23,
+                  "startColumn": 6,
+                  "endLine": 23,
+                  "endColumn": 6
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?SetColor@@YAXW4ConsoleColor@@0@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6386",
+          "message": {
+            "text": "Переполнение буфера при записи в \"temp\":  доступный для записи объем равен \"++n*4\" байт, однако записать можно только \"48\" байт."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/zelen/source/repos/last chance/last chance/Move.h"
+                },
+                "region": {
+                  "startLine": 46,
+                  "startColumn": 3,
+                  "endLine": 46,
+                  "endColumn": 17
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?Move@@YAHAEAUGame@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/zelen/source/repos/last chance/last chance/Move.h"
+                          },
+                          "region": {
+                            "startLine": 12,
+                            "startColumn": 7
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/zelen/source/repos/last chance/last chance/Move.h"
+                          },
+                          "region": {
+                            "startLine": 14,
+                            "startColumn": 8
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/zelen/source/repos/last chance/last chance/Move.h"
+                          },
+                          "region": {
+                            "startLine": 16,
+                            "startColumn": 8
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/zelen/source/repos/last chance/last chance/Move.h"
+                          },
+                          "region": {
+                            "startLine": 18,
+                            "startColumn": 8
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/zelen/source/repos/last chance/last chance/Move.h"
+                          },
+                          "region": {
+                            "startLine": 20,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/zelen/source/repos/last chance/last chance/Move.h"
+                          },
+                          "region": {
+                            "startLine": 22,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/zelen/source/repos/last chance/last chance/Move.h"
+                          },
+                          "region": {
+                            "startLine": 24,
+                            "startColumn": 46
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/zelen/source/repos/last chance/last chance/Move.h"
+                          },
+                          "region": {
+                            "startLine": 28,
+                            "startColumn": 8
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/zelen/source/repos/last chance/last chance/Move.h"
+                          },
+                          "region": {
+                            "startLine": 37,
+                            "startColumn": 26
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/zelen/source/repos/last chance/last chance/Move.h"
+                          },
+                          "region": {
+                            "startLine": 39,
+                            "startColumn": 10
+                          }
+                        },
+                        "message": {
+                          "text": "\"temp\" является массивом из 11 элементов (44 байт)"
+                        }
+                      },
+                      "kinds": [
+                        "объявление"
+                      ],
+                      "importance": "essential"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/zelen/source/repos/last chance/last chance/Move.h"
+                          },
+                          "region": {
+                            "startLine": 41,
+                            "startColumn": 12
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/zelen/source/repos/last chance/last chance/Move.h"
+                          },
+                          "region": {
+                            "startLine": 41,
+                            "startColumn": 21
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/zelen/source/repos/last chance/last chance/Move.h"
+                          },
+                          "region": {
+                            "startLine": 43,
+                            "startColumn": 12
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/zelen/source/repos/last chance/last chance/Move.h"
+                          },
+                          "region": {
+                            "startLine": 41,
+                            "startColumn": 27
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/zelen/source/repos/last chance/last chance/Move.h"
+                          },
+                          "region": {
+                            "startLine": 41,
+                            "startColumn": 21
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/zelen/source/repos/last chance/last chance/Move.h"
+                          },
+                          "region": {
+                            "startLine": 43,
+                            "startColumn": 12
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/zelen/source/repos/last chance/last chance/Move.h"
+                          },
+                          "region": {
+                            "startLine": 41,
+                            "startColumn": 27
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/zelen/source/repos/last chance/last chance/Move.h"
+                          },
+                          "region": {
+                            "startLine": 41,
+                            "startColumn": 21
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/zelen/source/repos/last chance/last chance/Move.h"
+                          },
+                          "region": {
+                            "startLine": 46,
+                            "startColumn": 15
+                          }
+                        },
+                        "message": {
+                          "text": "Недопустимая операция записи в \"temp[11]\" (доступный для записи диапазон: от 0 до 10)"
+                        }
+                      },
+                      "kinds": [
+                        "использование"
+                      ],
+                      "importance": "essential"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6031",
+          "message": {
+            "text": "Возвращаемое значение пропущено: \"_getch\"."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/zelen/source/repos/last chance/last chance/MC.h"
+                },
+                "region": {
+                  "startLine": 76,
+                  "startColumn": 6,
+                  "endLine": 76,
+                  "endColumn": 12
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?MC@@YAXXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6031",
+          "message": {
+            "text": "Возвращаемое значение пропущено: \"_getch\"."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/zelen/source/repos/last chance/last chance/MC.h"
+                },
+                "region": {
+                  "startLine": 90,
+                  "startColumn": 5,
+                  "endLine": 90,
+                  "endColumn": 11
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?MC@@YAXXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.29.30037.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "commandLine": "\"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30037\\bin\\HostX86\\x64\\c1xx.dll\" -ACf{1F7B090C-16DB-4822-966A-A93D26ED4681} -ACpmspft140.dll -Alint -D_PREFAST_ -D_AST_FE_ -Analyze -zm0x00F2C1C0 -il C:\\Users\\zelen\\AppData\\Local\\Temp\\_CL_71f90f73ast -typedil -f main.cpp -Ze -D_MSC_EXTENSIONS -Zp16 -pc \\:/ -D_MSC_VER=1929 -D_MSC_FULL_VER=192930037 -D_MSC_BUILD=0 -D_M_AMD64=100 -ZILP448 -D_M_X64=100 -D_WIN64 -D_WIN32 -GR -D_CPPRTTI -nologo -W 3 -diagnostics:column -D_GUARDOVERFLOW_CRT_ALLOCATORS=1 -Ot -DCODE_ANALYSIS -D_CRT_SECURE_NO_WARNINGS -EHs -D_CPPUNWIND -EHc -D__MSVC_RUNTIME_CHECKS -RTCs -RTCu -MDd -D_DEBUG -D_MT -D_DLL -GS -D_M_FP_PRECISE -permissive- -Zc:wchar_t -Zc:forScope -std:c++latest -experimental:module -stdIfcDir C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30037\\ifc\\x64 -Fox64\\Debug\\main.obj -Fdx64\\Debug\\vc142.pdb -external:W 3 -Gd -analyze:projectdirectory C:\\Users\\zelen\\source\\repos\\last chance\\last chance -analyze:rulesetdirectory ;C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Team Tools\\Static Analysis Tools\\\\Rule Sets; -analyze:ruleset C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Team Tools\\Static Analysis Tools\\Rule Sets\\NativeRecommendedRules.ruleset -analyze:quiet -analyze:plugin C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30037\\bin\\HostX86\\x86\\EspXEngine.dll -FC -errorreport:prompt -external:I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30037\\include -I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30037\\include -external:I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30037\\atlmfc\\include -I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30037\\atlmfc\\include -external:I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Auxiliary\\VS\\include -I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Auxiliary\\VS\\include -external:I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\ucrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\ucrt -external:I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\um -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\um -external:I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\shared -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\shared -external:I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\winrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\winrt -external:I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\cppwinrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\cppwinrt -external:I C:\\Program Files (x86)\\Windows Kits\\NETFXSDK\\4.8\\Include\\um -I C:\\Program Files (x86)\\Windows Kits\\NETFXSDK\\4.8\\Include\\um -I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30037\\include -I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30037\\atlmfc\\include -I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Auxiliary\\VS\\include -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\ucrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\um -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\shared -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\winrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\cppwinrt -I C:\\Program Files (x86)\\Windows Kits\\NETFXSDK\\4.8\\Include\\um",
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///C:/Users/zelen/source/repos/last chance/last chance/Colors.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "md5": "a6fa5843633af342f4cf0008c83dfc3b"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///C:/Users/zelen/source/repos/last chance/last chance/Move.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "md5": "6713a0340bf317b4a1196c1074544183"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///C:/Users/zelen/source/repos/last chance/last chance/MC.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "md5": "27ee2eef0dc820d240aff1f3cf718c4a"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/zelen/source/repos/last chance/last chance/main.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "md5": "b93e1a64a8da160a5f4818e02b2bf6e5"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/zelen/source/repos/last chance/last chance/plusapple.h"
+          },
+          "hashes": {
+            "md5": "e17a895f948be030add0c127ab52884f"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/zelen/source/repos/last chance/last chance/snake and game.h"
+          },
+          "hashes": {
+            "md5": "d4ef7cd98866a37193192509325694d2"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/zelen/source/repos/last chance/last chance/handle.h"
+          },
+          "hashes": {
+            "md5": "eb88f7535b3b2475390a0180d5acce34"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/zelen/source/repos/last chance/last chance/stena.h"
+          },
+          "hashes": {
+            "md5": "316bf071a7331b9c9ba5a1872c96f72a"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/zelen/source/repos/last chance/last chance/goto.h"
+          },
+          "hashes": {
+            "md5": "d499d2fbe6ab47823d90f7b01a3e61f0"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/zelen/source/repos/last chance/last chance/manage.h"
+          },
+          "hashes": {
+            "md5": "31e923d6fd46f64e10a3e724fae7c62e"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/zelen/source/repos/last chance/last chance/speedofgame.h"
+          },
+          "hashes": {
+            "md5": "11b6f096e3b96da624500ce93f454377"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,185 @@
+﻿<?xml version="1.0" encoding="utf-8"?><DEFECTS><DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\zelen\source\repos\last chance\last chance\</FILEPATH>
+      <FILENAME>Colors.h</FILENAME>
+      <LINE>23</LINE>
+      <COLUMN>5</COLUMN>
+    </SFA>
+    <DEFECTCODE>26812</DEFECTCODE>
+    <DESCRIPTION>Тип перечисления "ConsoleColor" не входит в область. Старайтесь использовать "enum class" вместо "enum" (Enum.3).</DESCRIPTION>
+    <FUNCTION>SetColor</FUNCTION>
+    <DECORATED>?SetColor@@YAXW4ConsoleColor@@0@Z</DECORATED>
+    <FUNCLINE>23</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\zelen\source\repos\last chance\last chance\</FILEPATH>
+      <FILENAME>Move.h</FILENAME>
+      <LINE>46</LINE>
+      <COLUMN>14</COLUMN>
+    </SFA>
+    <DEFECTCODE>6386</DEFECTCODE>
+    <DESCRIPTION>Переполнение буфера при записи в "temp":  доступный для записи объем равен "++n*4" байт, однако записать можно только "48" байт.</DESCRIPTION>
+    <FUNCTION>Move</FUNCTION>
+    <DECORATED>?Move@@YAHAEAUGame@@@Z</DECORATED>
+    <FUNCLINE>10</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>4</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>C:\Users\zelen\source\repos\last chance\last chance\</FILEPATH>
+        <FILENAME>Move.h</FILENAME>
+        <LINE>12</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\zelen\source\repos\last chance\last chance\</FILEPATH>
+        <FILENAME>Move.h</FILENAME>
+        <LINE>14</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\zelen\source\repos\last chance\last chance\</FILEPATH>
+        <FILENAME>Move.h</FILENAME>
+        <LINE>16</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\zelen\source\repos\last chance\last chance\</FILEPATH>
+        <FILENAME>Move.h</FILENAME>
+        <LINE>18</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\zelen\source\repos\last chance\last chance\</FILEPATH>
+        <FILENAME>Move.h</FILENAME>
+        <LINE>20</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\zelen\source\repos\last chance\last chance\</FILEPATH>
+        <FILENAME>Move.h</FILENAME>
+        <LINE>22</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\zelen\source\repos\last chance\last chance\</FILEPATH>
+        <FILENAME>Move.h</FILENAME>
+        <LINE>24</LINE>
+        <COLUMN>45</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\zelen\source\repos\last chance\last chance\</FILEPATH>
+        <FILENAME>Move.h</FILENAME>
+        <LINE>28</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\zelen\source\repos\last chance\last chance\</FILEPATH>
+        <FILENAME>Move.h</FILENAME>
+        <LINE>37</LINE>
+        <COLUMN>25</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\zelen\source\repos\last chance\last chance\</FILEPATH>
+        <FILENAME>Move.h</FILENAME>
+        <LINE>39</LINE>
+        <COLUMN>9</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>объявление</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>"temp" является массивом из 11 элементов (44 байт)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\zelen\source\repos\last chance\last chance\</FILEPATH>
+        <FILENAME>Move.h</FILENAME>
+        <LINE>41</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\zelen\source\repos\last chance\last chance\</FILEPATH>
+        <FILENAME>Move.h</FILENAME>
+        <LINE>41</LINE>
+        <COLUMN>20</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\zelen\source\repos\last chance\last chance\</FILEPATH>
+        <FILENAME>Move.h</FILENAME>
+        <LINE>43</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\zelen\source\repos\last chance\last chance\</FILEPATH>
+        <FILENAME>Move.h</FILENAME>
+        <LINE>41</LINE>
+        <COLUMN>26</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\zelen\source\repos\last chance\last chance\</FILEPATH>
+        <FILENAME>Move.h</FILENAME>
+        <LINE>41</LINE>
+        <COLUMN>20</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\zelen\source\repos\last chance\last chance\</FILEPATH>
+        <FILENAME>Move.h</FILENAME>
+        <LINE>43</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\zelen\source\repos\last chance\last chance\</FILEPATH>
+        <FILENAME>Move.h</FILENAME>
+        <LINE>41</LINE>
+        <COLUMN>26</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\zelen\source\repos\last chance\last chance\</FILEPATH>
+        <FILENAME>Move.h</FILENAME>
+        <LINE>41</LINE>
+        <COLUMN>20</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\zelen\source\repos\last chance\last chance\</FILEPATH>
+        <FILENAME>Move.h</FILENAME>
+        <LINE>46</LINE>
+        <COLUMN>14</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>использование</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>Недопустимая операция записи в "temp[11]" (доступный для записи диапазон: от 0 до 10)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\zelen\source\repos\last chance\last chance\</FILEPATH>
+      <FILENAME>MC.h</FILENAME>
+      <LINE>76</LINE>
+      <COLUMN>11</COLUMN>
+    </SFA>
+    <DEFECTCODE>6031</DEFECTCODE>
+    <DESCRIPTION>Возвращаемое значение пропущено: "_getch".</DESCRIPTION>
+    <FUNCTION>MC</FUNCTION>
+    <DECORATED>?MC@@YAXXZ</DECORATED>
+    <FUNCLINE>11</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\zelen\source\repos\last chance\last chance\</FILEPATH>
+      <FILENAME>MC.h</FILENAME>
+      <LINE>90</LINE>
+      <COLUMN>10</COLUMN>
+    </SFA>
+    <DEFECTCODE>6031</DEFECTCODE>
+    <DESCRIPTION>Возвращаемое значение пропущено: "_getch".</DESCRIPTION>
+    <FUNCTION>MC</FUNCTION>
+    <DECORATED>?MC@@YAXXZ</DECORATED>
+    <FUNCLINE>11</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT></DEFECTS>

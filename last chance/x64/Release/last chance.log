@@ -1,0 +1,9 @@
+﻿  main.cpp
+C:\Users\zelen\source\repos\last chance\last chance\MC.h(21,12): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+C:\Users\zelen\source\repos\last chance\last chance\main.cpp(7,1): warning C4326: возвращаемый тип "main" должен быть "int", а не "void"
+  Создание кода
+  0 of 23 functions ( 0.0%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    0 functions had inline decision re-evaluated but remain unchanged
+  Создание кода завершено
+  last chance.vcxproj -> C:\Users\zelen\source\repos\last chance\x64\Release\last chance.exe

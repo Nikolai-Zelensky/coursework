@@ -1,0 +1,4 @@
+﻿  main.cpp
+C:\Users\zelen\source\repos\last chance\last chance\MC.h(21,12): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+C:\Users\zelen\source\repos\last chance\last chance\main.cpp(7,1): warning C4326: возвращаемый тип "main" должен быть "int", а не "void"
+  last chance.vcxproj -> C:\Users\zelen\source\repos\last chance\x64\Debug\last chance.exe

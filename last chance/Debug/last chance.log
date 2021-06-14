@@ -1,0 +1,32 @@
+﻿  Source.cpp
+C:\Users\zelen\source\repos\last chance\last chance\GOTO.h(6,18): warning C4838: Преобразование из "int" в "SHORT" требует сужающего преобразования.
+C:\Users\zelen\source\repos\last chance\last chance\GOTO.h(6,21): warning C4838: Преобразование из "int" в "SHORT" требует сужающего преобразования.
+C:\Users\zelen\source\repos\last chance\last chance\GOTO.h(8,27): error C2065: hStdOut: необъявленный идентификатор
+C:\Users\zelen\source\repos\last chance\last chance\Stena.h(11,11): error C2065: LightGreen: необъявленный идентификатор
+C:\Users\zelen\source\repos\last chance\last chance\Stena.h(11,23): error C2065: Pink: необъявленный идентификатор
+C:\Users\zelen\source\repos\last chance\last chance\Stena.h(11,2): error C3861: SetColor: идентификатор не найден
+C:\Users\zelen\source\repos\last chance\last chance\Stena.h(38,12): error C2065: LightMagenta: необъявленный идентификатор
+C:\Users\zelen\source\repos\last chance\last chance\Stena.h(38,26): error C2065: Pink: необъявленный идентификатор
+C:\Users\zelen\source\repos\last chance\last chance\Stena.h(38,3): error C3861: SetColor: идентификатор не найден
+C:\Users\zelen\source\repos\last chance\last chance\Colors.h(26,26): error C2065: hStdOut: необъявленный идентификатор
+C:\Users\zelen\source\repos\last chance\last chance\Plusapple.h(34,27): error C2065: hConsole: необъявленный идентификатор
+C:\Users\zelen\source\repos\last chance\last chance\Plusapple.h(36,26): error C2065: hConsole: необъявленный идентификатор
+C:\Users\zelen\source\repos\last chance\last chance\Move.h(49,28): error C2065: hConsole: необъявленный идентификатор
+C:\Users\zelen\source\repos\last chance\last chance\Move.h(51,27): error C2065: hConsole: необъявленный идентификатор
+C:\Users\zelen\source\repos\last chance\last chance\Move.h(55,28): error C2065: hConsole: необъявленный идентификатор
+C:\Users\zelen\source\repos\last chance\last chance\Move.h(57,27): error C2065: hConsole: необъявленный идентификатор
+C:\Users\zelen\source\repos\last chance\last chance\Move.h(72,27): error C2065: hConsole: необъявленный идентификатор
+C:\Users\zelen\source\repos\last chance\last chance\Move.h(76,27): error C2065: hConsole: необъявленный идентификатор
+C:\Users\zelen\source\repos\last chance\last chance\Move.h(78,26): error C2065: hConsole: необъявленный идентификатор
+C:\Users\zelen\source\repos\last chance\last chance\Move.h(82,27): error C2065: hConsole: необъявленный идентификатор
+C:\Users\zelen\source\repos\last chance\last chance\Move.h(84,26): error C2065: hConsole: необъявленный идентификатор
+C:\Users\zelen\source\repos\last chance\last chance\Source.cpp(42,8): error C2365: END: переопределение; предыдущим определением было "перечислитель"
+C:\Users\zelen\source\repos\last chance\last chance\Move.h(7): message : см. объявление "END"
+C:\Users\zelen\source\repos\last chance\last chance\Source.cpp(42,13): error C2365: STENA: переопределение; предыдущим определением было "перечислитель"
+C:\Users\zelen\source\repos\last chance\last chance\Move.h(7): message : см. объявление "STENA"
+C:\Users\zelen\source\repos\last chance\last chance\Source.cpp(42,20): error C2365: PLUS: переопределение; предыдущим определением было "перечислитель"
+C:\Users\zelen\source\repos\last chance\last chance\Move.h(7): message : см. объявление "PLUS"
+C:\Users\zelen\source\repos\last chance\last chance\Source.cpp(42,26): error C2365: MOVE: переопределение; предыдущим определением было "перечислитель"
+C:\Users\zelen\source\repos\last chance\last chance\Move.h(7): message : см. объявление "MOVE"
+C:\Users\zelen\source\repos\last chance\last chance\Source.cpp(128,1): warning C4326: возвращаемый тип "main" должен быть "int", а не "void"
+C:\Users\zelen\source\repos\last chance\last chance\Source.cpp(143,12): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
